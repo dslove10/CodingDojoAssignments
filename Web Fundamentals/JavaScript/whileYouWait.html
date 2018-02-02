@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<body>
+		<script type="text/javascript">
+			var daysUntilMyBirthday = 60;
+
+			while (daysUntilMyBirthday >= 30) {
+				console.log(daysUntilMyBirthday + " days until my birthday. Such a long time... :(");
+
+				daysUntilMyBirthday--;
+			}
+			while (daysUntilMyBirthday < 30 && (daysUntilMyBirthday >= 6)) {
+				console.log(daysUntilMyBirthday + "	days until it's party time");
+
+				daysUntilMyBirthday--;
+			}
+
+			while (daysUntilMyBirthday <= 5 && daysUntilMyBirthday >= 0) {				
+				if(daysUntilMyBirthday > 1) {
+					console.log(daysUntilMyBirthday + " DAYS UNTIL MY BIRTHDAY!!");
+				} else if (daysUntilMyBirthday === 1){
+						console.log(daysUntilMyBirthday + " DAY UNTIL MY BIRTHDAY!!");
+				} else {
+					console.log("HAPPY BIRTHDAY!!!");
+				}
+
+				daysUntilMyBirthday--;
+			}
+		</script>
+	</body>
+</html>

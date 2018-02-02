@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+		<meta charset="utf-8">
+	</head>
+	<body>
+		<script type="text/javascript">
+			var HOUR = 7;
+			var MINUTE = 15;
+			var PERIOD = "PM";
+
+			if (MINUTE > 30 && PERIOD === "AM") {
+				HOUR += 1;
+				console.log("It's almost " + HOUR + " in the morning");
+			} else if (MINUTE <= 30 && PERIOD === "AM") {
+				console.log("It's just after " + HOUR + " in the morning");
+			} else if (MINUTE > 30 && PERIOD === "PM") {
+				HOUR += 1;
+				console.log("It's almost " + HOUR + " in the evening");
+			} else {
+				console.log("It's just after " + HOUR + " in the evening");
+			}
+		</script>
+	</body>
+</html>

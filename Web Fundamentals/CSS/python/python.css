@@ -1,0 +1,196 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+#wrapper{
+	width: 970px;
+	background-color: #245076;
+}
+
+#header{
+	width: 970px;
+	height: 165px;
+}
+
+#header img{
+	width: 580px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+#search_bar{
+	width: 250px;
+	display: inline-block;
+	margin-left: 110px;
+	text-align: right;
+	font-family: "Arial", sans-serif;
+	color: white;
+}
+
+#search_bar a{
+	color: #a7991a;
+}
+
+#search_bar form{
+	width: 230px;
+	padding: 15px;
+	text-align: center;
+	vertical-align: middle;
+	border-radius: 10px;
+	box-shadow: 2px 2px #020202;
+	background-color: #444444;
+}
+
+form input:first-child{
+	width: 125px;
+	height: 25px;
+	text-align: center;
+	vertical-align: middle;
+	color: grey;
+}
+
+form input:last-child{
+	width: 40px;
+	height: 25px;
+	border-radius: 5px;
+	box-shadow: 2px 2px #020202;
+	font-size: 11px;
+	background-color: #254f75;
+	color: white;
+	font-family: "Arial", sans-serif;
+	vertical-align: middle;
+}
+
+#subjects{
+	width: 900px;
+	margin: auto;
+	border-radius: 5px;
+	box-shadow: 2px 2px #020202;
+	text-align: center;
+	background-color: #437cad;
+}
+
+#subjects h2{
+	display: inline-block;
+	text-align: center;
+	margin: 10px 20px;
+	font-family: "Arial", sans-serif;
+}
+
+#subjects a{
+	color: white;
+	text-decoration: none;
+	font-weight: lighter;
+}
+
+#body{
+	margin: auto;
+	width: 900px;
+}
+
+.body_list{
+	text-align: center; 
+	display: inline-block;
+	margin: 20px;
+	color: #ffd42f;
+	list-style-position: inside;
+	font-family: "Arial", sans-serif;
+}
+
+.body_list li{
+	margin: 10px;
+}
+.body_list a{
+	color: white;
+}
+
+.message{
+	width: 605px;
+	display: inline-block;
+	vertical-align: top;
+	text-align: center;
+	margin: 15px;
+	font-family: "Arial", sans-serif;
+}
+
+.message p:first-child{
+	font-size: 14px;
+	color: white;
+}
+
+.message p:last-child{
+	white-space: pre-line;
+	color: #ffd42f;
+	font-style: italic;
+	font-size: 20px;
+	line-height: 2;
+}
+
+.message span{
+	color: white;
+	font-style: normal;
+	font-size: 16px;
+	font-family: "Arial", sans-serif;
+}
+
+#lesson{
+	padding-left: 40px;
+	background-color: white;
+	font-family: "Arial", sans-serif;
+	list-style-type: square;
+	list-style-position: outside;
+}
+
+#lesson a{
+	color: #7dadd8;
+	text-decoration: none;
+}
+.getstarted{
+	width: 400px;
+	margin: 10px;
+	display: inline-block;
+	text-align: center;
+	vertical-align: top;
+	border-top: 5px solid #72a8d5;
+}
+
+.getstarted ul{
+	text-align: left;
+}
+
+.apps{
+	width: 400px;
+	margin: 10px;
+	display: inline-block;
+	text-align: center;
+	vertical-align: top;
+	border-top: 5px solid #72a8d5;
+}
+
+.apps ul{
+	text-align: left;
+}
+
+#footer{
+	width: 970px;
+	padding-top: 50px;
+	text-align: center;
+	vertical-align: bottom;
+	font-family: "Arial", sans-serif;
+}
+
+.info_bar a{
+	margin: 20px;
+	text-decoration: none;
+	color: #76a9d6;
+	font-size: 18px;
+
+}
+
+#footer p{
+	text-align: center;
+	margin: 10px;
+	color: #76a9d6;
+	font-size: 12px;
+}

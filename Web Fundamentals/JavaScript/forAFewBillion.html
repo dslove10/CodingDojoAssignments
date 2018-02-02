@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+		<meta charset="utf-8">
+	</head>
+	<body>
+		<script type="text/javascript">
+			function offerings() {
+				var numDays = 1;
+				var sum = 0;
+				var money = 0.01;
+				for (var i = 1; i <= 30; i++) {
+					sum += money;
+					money *= 2;
+					if (sum < Infinity) {
+						numDays++;
+					}
+				}
+				console.log(numDays);
+				return sum;
+			}
+			var amount = offerings();
+			console.log(amount);
+		</script>
+	</body>
+</html>

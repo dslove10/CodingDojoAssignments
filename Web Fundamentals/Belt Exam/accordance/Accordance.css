@@ -1,0 +1,128 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+#wrapper{
+	width: 970px;
+}
+
+#menubar{
+	width: 900px;
+	margin: 20px;
+	background-color: #e1e1e1;
+	border-radius: 5px;
+}
+
+#menubar img{
+	border-radius: 5px 0px 0px 5px;
+}
+
+#menubar button{
+	display: inline-block;
+	vertical-align: top;
+	background-color: #e1e1e1;
+	height: 30px;
+	width: 40px;
+}
+
+.searchbar{
+	display: inline-block;
+	width: 200px;
+}
+
+.searchbar img{
+	display: inline-block;
+}
+
+#download{
+	height: 252px;
+	width: 900px;
+	background-image: url("accordance/main.png");
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#download ul{
+	display: inline-block;
+	width: 595px;
+	background-color: #4b464b;
+	margin: auto;
+	vertical-align: baseline;
+	border-radius: 0px 0px 5px 5px;
+
+}
+
+#download ul li{
+	list-style-type: none;
+	display: inline-block;
+}
+
+#discover{
+	width: 900px;
+	border-radius: 5px 5px 0px 0px;
+}
+
+#browse{
+	border-radius: 5px 5px 0px 0px;
+	border: 2px solid #e1e1e1;
+	border-bottom: 0px;
+	color: #e1e1e1;
+	font-family: "Arial", sans-serif;
+}
+
+#browse button{
+	width: 215px;
+	height: 30px;
+	background-color: #508bb3;
+	color: white;
+	margin: 10px;
+	border-radius: 5px;
+}
+
+#middlemenu{
+	border: 2px solid #e1e1e1;
+}
+
+.video{
+	width: 200px;
+	display: inline-block;
+	border-right: 1px solid #e1e1e1;
+}
+
+.tour{
+	width: 200px;
+	display: inline-block;
+}
+
+.trial{
+	display: inline-block;
+	width: 200px;
+}
+
+.buy{
+	display: inline-block;
+	width: 200px;
+
+}
+
+#blank{
+	height: 50px;
+	border: 2px solid #e1e1e1;
+	border-radius: 0px 0px 5px 5px;
+	border-top: 0px;
+}
+
+#aboutmenu div{
+	display: inline-block;
+	font-family: "Arial", sans-serif;
+}
+
+#aboutmenu ul li{
+	list-style-type: none;
+	text-decoration: none;
+}
+
+#footer{
+
+}

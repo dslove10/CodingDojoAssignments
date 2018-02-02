@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<body>
+		<script type="text/javascript">
+			
+			function slotMachine(quarters) {
+				var win = 50;
+				var gamble = Math.floor(Math.random() * 100);
+				var loot = Math.floor(Math.random() * 50) + 51;
+
+				quarters--;
+
+				if (quarters === 0) {
+					console.log("No quarters left!");
+					return 0;
+				} 
+				
+				if (win === gamble) {
+					console.log ("You won " + loot + " coins!");
+						quarters += loot;
+					return "you have " + quarters + " left";
+				}
+				else {
+					console.log("You Lose!");
+					return "You have " + quarters + " left";
+				}
+			}
+
+			slotMachine(20);
+		</script>
+	</body>
+</html>

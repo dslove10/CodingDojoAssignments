@@ -1,0 +1,115 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+#wrapper{
+	width: 950px;
+	margin: 0px auto;
+}
+
+#header{
+	width: 850px;
+	background-color: white;
+}
+
+h1{
+	color: black;
+	font-family: "Comic Sans MS", sans-serif;
+	text-align: left;
+	vertical-align: middle;
+	display: inline-block;
+}
+
+h3{
+	color: black;
+	font-family: "Arial", sans-serif;
+	float: right;
+	padding: 15px;
+	display: inline-block;
+}
+
+#body{
+	width: 850px;
+	background-color: maroon;
+	padding: 10px;
+}
+
+.topBlock{
+	width: 400px;
+	height: 300px;
+	background-color: #D3D3D3;
+	display: inline-block;
+	margin: 10px;
+	vertical-align: top;
+}
+
+.topBlock img{
+	margin: 5px;
+}
+
+.topBlock h4{
+	background-color: grey;
+	color: white;
+	font-family: "Arial", sans-serif;
+	padding: 10px;
+
+}
+
+.topBlock p, a{
+	color: black;
+	font-family: "Arial", sans-serif;
+	padding: 10px;
+}
+
+.middleThree{
+	width: 260px;
+	height: 575px;
+	background-color: #D3D3D3;
+	display: inline-block;
+	margin: 10px;
+	vertical-align: top;
+}
+
+.middleThree h4, h5{
+	background-color: grey;
+	color: white;
+	font-family: "Arial", sans-serif;
+	padding: 10px;
+}
+
+.middleThree p{
+	height: 200px;
+	font-family: "Arial", sans-serif;
+	font-size: 14px;
+	margin: 5px;
+}
+
+.technologies img{
+	padding: 4px;
+}
+
+form{
+	text-align: center;
+}
+
+input{
+	padding: 5px;
+	background-color: green;
+	color: white;
+	border: 1px solid black;
+	border-radius: 10px;
+
+}
+
+#footer{
+	width: 850px;
+	background-color: white;
+	font-family: "Arial", sans-serif;
+	text-align: center;
+	padding: 5px;
+}
+
+#footer p{
+	margin-bottom: 20px;
+}

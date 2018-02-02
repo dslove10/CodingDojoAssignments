@@ -1,0 +1,74 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+#wrapper{
+	width: 950px;
+	font-family: "Comic sans MS", sans-serif;
+}
+
+.methods {
+	width: 950px;
+	border-bottom: 3px solid black;
+}
+
+.methods h1{
+	text-align: center;
+}
+
+.methods button{
+	display: inline-block;
+	margin: 20px;
+	font-family: "Comic Sans MS", sans-serif;
+	box-shadow: 3px 3px black;
+}
+
+.methods p{
+	display: inline-block;
+	margin-left: 150px;
+}
+
+.addred{
+	color: red;
+}
+
+#slidetoggle img{
+	display: none;
+	width: 400px;
+	margin: auto;
+}
+
+.addcolor{
+	background-color: blue;
+}
+
+#hide img{
+	height: 200px;
+	margin-left: 200px;
+}
+
+#show img{
+	height: 200px;
+	margin-left: 200px;
+	display: none;
+}
+
+#slidedown img{
+	width: 200px;
+	margin-left: 100px;
+	display: none;
+}
+
+#slideup img{
+	width: 200px;
+	margin-left: 100px;
+}
+
+#fadein h1{
+	display: none;
+}
+
+#attr img{
+	width: 200px;
+}

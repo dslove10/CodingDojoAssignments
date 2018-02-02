@@ -1,0 +1,228 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+#wrapper{
+	width: 970px;
+}
+
+#header{
+	width: 970px;
+	background-color: white;
+}
+
+#header img{
+	display: inline-block;
+	width: 100px;
+}
+
+#header h1{
+	display: inline-block;
+	font-size: 50px;
+	font-weight: lighter;
+	font-family: "Arial", sans-serif;
+	vertical-align: top;
+	margin-top: 30px;
+}
+
+.spanone{
+	color: #24669f;
+}
+
+#title{
+	width: 950px;
+	padding: 10px;
+	margin-top: -20px;
+	background-color: #3370a3;
+	color: white;
+	font-family: "Arial", sans-serif;
+	font-weight: lighter; 
+}
+
+#sidenav{
+	width: 210px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+#resources{
+	width: 200px;
+	font-family: "Arial", sans-serif;
+	vertical-align: top;
+	border-bottom: 2px solid grey;
+	padding: 5px 5px 20px 5px;
+}
+
+#resources h4{
+	margin: 20px 5px 5px 5px;
+}
+
+#resources p{
+	font-weight: bolder;
+	font-size: 14px;
+	margin: 10px 5px;
+}
+
+#resources button{
+	width: 180px;
+	height: 30px;
+	margin: 5px 5px 2px 5px;
+	border-radius: 5px;
+	border: none;
+	box-shadow: 2px 2px #859099;
+	color: white;
+}
+
+.video{
+	background-color: #417db0;
+}
+
+.more{
+	background-color: #ef8100;
+}
+
+#learn{
+	width: 200px;
+	background-image: url("images/ad_background.png");
+	background-repeat: no-repeat;
+	box-shadow: 2px 2px grey;
+	margin: 20px 0px;
+	padding: 20px 5px;
+}
+
+#learn h2{
+	font-family: "Arial", sans-serif;
+	color: white;
+	font-weight: lighter;
+	text-align: center;
+}
+
+#learn img{
+	width: 100px;
+	display: block;
+	margin: 10px 50px;
+}
+
+#learn button{
+	width: 185px;
+	padding: 5px;
+	display: block;
+	margin: 10px auto;
+	background-color: #01c0df;
+	color: white;
+	border-radius: 5px;
+	border: none;
+	box-shadow: 2px 2px black;
+}
+
+#body{
+	display: inline-block;
+	vertical-align: top;
+	width: 715px;
+	margin: 5px 0px 10px 30px;
+}
+
+#infobar{
+	vertical-align: top;
+	border-bottom: 2px solid grey;
+	font-family: "Arial", sans-serif;
+}
+
+.home{
+	display: inline-block;
+	margin: 10px 20px;
+	vertical-align: top;
+}
+
+.home img{
+	width: 20px;
+}
+
+.home p{
+	display: inline-block;
+	text-decoration: none;
+	vertical-align: top;
+	color: #24669f;
+}
+
+.contact{
+	display: inline-block;
+	margin-left: 395px;
+}
+
+.contact img{
+	width: 60px;
+}
+
+.contact p{
+	width: 150px;
+	display: inline-block;
+	font-size: 10px;
+	text-align: right;
+	vertical-align: top;
+}
+
+.spanthree{
+	color: #01c0df; 
+	font-size: 24px;
+	font-weight: bolder;
+}
+
+#lessons{
+	width: 715px;
+	display: inline-block;
+	font-family: "Arial", sans-serif;
+	list-style-position: inside;
+}
+
+.subject{
+	color: #417db0;
+}
+
+#lesson_one h3, p{
+	margin: 5px 0px;
+}
+
+#lesson_one ul{ 
+	margin-left: 20px;
+}
+
+.spanfour{
+	color: #01c0df; 
+}
+
+.spanfive{
+	font-weight: bold;
+}
+
+#lessons img{
+	width: 350px;
+	display: block;
+	margin: 10px auto;
+}
+
+#lesson_two ol{
+	margin-left: 20px;
+}
+
+#lesson_three{
+	display: inline-block;
+	border: 5px solid #0085e0;
+	margin: 20px 0px;
+}
+
+#lesson_three img{
+	width: 100px;
+	display: inline-block;
+	margin: initial;
+}
+
+.bigthree{
+	display: inline-block;
+	width: 600px;
+}
+
+.bigthree a{
+	text-decoration: none;
+}

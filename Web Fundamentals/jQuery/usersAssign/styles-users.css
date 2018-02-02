@@ -1,0 +1,26 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+#userlist{
+	border: 2px solid black;
+	width: 500px;
+}
+
+h1{
+	border-bottom: 2px solid grey;
+}
+
+h1, form{
+	width: 285px;
+}
+
+form{
+	text-align: right;
+	margin-top: 20px;
+}
+
+input{
+	margin: 10px;
+}

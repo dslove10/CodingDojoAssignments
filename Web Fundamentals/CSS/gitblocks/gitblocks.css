@@ -1,0 +1,195 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+#wrapper{
+	width: 970px;
+	padding: 10px;
+	background-color: #dddfd4;
+}
+
+#header{
+	width: 950px;
+	background-color: #38b0ad;
+	margin: 10px auto;
+	font-family: "Arial", sans-serif;
+}
+
+#header img{
+	width: 60px;
+	background-color: #38b0ad;
+	vertical-align: middle;
+}
+
+#header h1{
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.topnav{
+	width: 600px;
+	display: inline-block;
+	list-style-type: none;
+	margin-left: 115px;
+
+}
+
+.topnav li{
+	display: inline-block;
+	margin: 5px;
+}
+
+.topnav li a{
+	color: white;
+}
+
+#body{
+	width: 950px;
+	background-color: #fbe691;
+	margin: auto;
+}
+
+#whatisgit{
+	display: inline-block;
+	width: 206px;
+	background-color: #153f43;
+	margin: 10px;
+	color: white;
+	font-family: "Arial", sans-serif;
+}
+
+#whatisgit h3{
+	margin: 10px 5px;
+}
+
+#whatisgit p{
+	margin: 10px;
+}
+
+#gitcommands{
+	vertical-align: top;
+	display: inline-block;
+	width: 610px;
+	margin-left: 30px;
+	color: white;
+	font-family: "Arial", sans-serif;
+}
+
+.init{
+	display: inline-block;
+	width: 160px;
+	height: 160px;
+	margin: 10px 20px;
+	background-color: #153f43;
+}
+
+.init h4{
+	margin: 10px 5px;
+}
+
+.init p{
+	margin: 10px;
+}
+
+.spanone{
+	color: #45c6b8;
+}
+
+.add{
+	vertical-align: top;
+	display: inline-block;
+	width: 160px;
+	height: 160px;
+	margin: 10px 20px;
+	background-color: #153f43;
+}
+
+.add h4{
+	margin: 10px 5px;
+}
+
+.add p{
+	margin: 10px;
+}
+
+.status{
+	vertical-align: top;
+	display: inline-block;
+	width: 160px;
+	height: 160px;
+	margin: 10px 20px;
+	background-color: #153f43;
+}
+
+.status h4{
+	margin: 10px 5px;
+}
+
+.status p{
+	margin: 10px;
+}
+
+.commit{
+	vertical-align: top;
+	display: inline-block;
+	width: 262px;
+	height: 160px;
+	margin: 10px 20px;
+	background-color: #153f43;
+}
+
+.commit h4{
+	margin: 10px 5px;
+}
+
+.commit p{
+	margin: 10px;
+}
+
+.remoteadd{
+	vertical-align: top;
+	display: inline-block;
+	width: 262px;
+	height: 160px;
+	margin: 10px 20px;
+	background-color: #153f43;
+}
+
+.remoteadd h4{
+	margin: 10px 5px;
+}
+
+.remoteadd p{
+	margin: 10px;
+}
+
+.push{
+	vertical-align: top;
+	display: inline-block;
+	width: 567px;
+	height: 160px;
+	margin: 10px 20px;
+	background-color: #153f43;
+}
+
+.push h4{
+	margin: 10px 5px;
+}
+
+.push p{
+	margin: 10px;
+}
+
+#footer{
+	width: 950px;
+	margin: 10px;
+	display: inline-block;
+	background-color: #38b0ad;
+	font-family: "Arial", sans-serif;
+}
+
+#footer p{
+	text-align: center;
+	margin: 20px;
+}
